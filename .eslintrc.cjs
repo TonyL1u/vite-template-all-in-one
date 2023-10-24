@@ -10,6 +10,7 @@ module.exports = {
         'simple-import-sort/imports': 'warn',
         'simple-import-sort/exports': 'warn',
         'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
-        '@typescript-eslint/no-explicit-any': ['error', { ignoreRestArgs: true }]
+        '@typescript-eslint/no-explicit-any': ['error', { ignoreRestArgs: true }],
+        'no-console': 'error'
     }
 };
